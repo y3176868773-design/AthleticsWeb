@@ -1,3 +1,3 @@
-https://athletics-web.vercel.app/（frontend only)
+https://athletics-web.vercel.app/
 cd vue-project && npm install && npm run dev
 cd backend && npm install && npm start
