@@ -1,0 +1,48 @@
+[
+  {
+    "id": 1,
+    "username": "admin",
+    "email": "admin@example.com",
+    "password": "$2b$10$BOOTzPhdbSfR/iW9Y0XTE.D3cUAZAugWDJwtZZWeOlpSDrtUhKxl6",
+    "role": "admin",
+    "createdAt": 1765865624635,
+    "updatedAt": 1766153922760
+  },
+  {
+    "id": 2,
+    "username": "user",
+    "email": "user@example.com",
+    "password": "$2a$10$C92glz9xsEFJuU6BIQSa2eR8ogO0yPPiTvPj2c.NqCJdflO7OV6fK",
+    "role": "user",
+    "createdAt": 1765865624635,
+    "updatedAt": 1765865624635
+  },
+  {
+    "id": 3,
+    "username": "persistent_user",
+    "email": "persistent@example.com",
+    "password": "$2a$10$0MbwGvY2EKBHqnlLi.hGwOJfT7tCAtxAQ/7Z6rDbktgKnRLcaPAya",
+    "role": "user",
+    "createdAt": 1765865926576,
+    "updatedAt": 1765865926576
+  },
+  {
+    "id": 4,
+    "username": "oovc",
+    "email": "123456@qq.com",
+    "password": "$2a$10$hRXpEGPM3GjSdLJ.QzH3V.TsSA86Hk1wq11Uy4rUQP2ZRBWwAEXum",
+    "role": "user",
+    "createdAt": 1765866492928,
+    "updatedAt": 1765866492928
+  },
+  {
+    "id": 5,
+    "name": "oovc",
+    "email": "456123@qq.com",
+    "password": "$2b$10$/Y7Vuk4wgkanslrtgd.Fu.siyEYzCeokfBBjEk6nDOGIVnmWtH5ey",
+    "role": "user",
+    "createdAt": "2025-12-22T07:48:41.268Z",
+    "updatedAt": "2025-12-22T07:48:41.268Z",
+    "country": "CN"
+  }
+]
