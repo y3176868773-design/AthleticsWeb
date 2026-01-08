@@ -16,6 +16,11 @@ app.use(router)
 app.use(i18n)
 
 // 初始化i18n，确保在生产环境中正确加载语言包
-initializeI18n(i18n)
+try {
+  initializeI18n(i18n)
+} catch (error) {
+  console.error('Failed to initialize i18n:', error)
+  // 继续执行，不要因为i18n失败而阻止app挂载
+}
 
 app.mount('#app')
