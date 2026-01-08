@@ -1,0 +1,11 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "devCommand": "vite",
+  "env": [
+    {
+      "key": "VITE_API_URL",
+      "value": "your_production_api_url_here"
+    }
+  ]
+}

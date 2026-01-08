@@ -35,6 +35,8 @@ const toggleLanguageMenu = () => {
 
 const selectLanguage = (language) => {
   locale.value = language.value
+  // 持久化语言选择到localStorage
+  localStorage.setItem('language', language.value)
   isLanguageMenuOpen.value = false
   console.log('Language changed to:', language.value)
 }

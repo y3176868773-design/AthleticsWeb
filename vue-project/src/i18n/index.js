@@ -2,15 +2,20 @@ import { createI18n } from 'vue-i18n'
 import zhCN from './locales/zh-CN'
 import enUS from './locales/en-US'
 
+const messages = {
+  'zh-CN': zhCN,
+  'en-US': enUS
+}
+
+// 确保在生产环境中正确加载消息
 const i18n = createI18n({
-  locale: 'zh-CN', // 默认语言
+  legacy: false,
+  locale: localStorage.getItem('language') || 'zh-CN',
   fallbackLocale: 'zh-CN',
-  messages: {
-    'zh-CN': zhCN,
-    'en-US': enUS
-  },
-  legacy: false, // 使用组合式API
-  globalInjection: true // 全局注入$t和$i18n
+  messages,
+  globalInjection: true,
+  missingWarn: false,
+  fallbackWarn: false
 })
 
 export default i18n
